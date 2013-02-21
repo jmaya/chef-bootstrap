@@ -15,3 +15,4 @@ git clone https://github.com/jmaya/chef-bootstrap.git /var/chef
 cd /var/chef
 git submodule init
 git submodule update
+chef-solo -c /var/chef/solo.rb
