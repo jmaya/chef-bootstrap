@@ -1,0 +1,11 @@
+{
+	"user": {
+		"name": "deployer",
+		"password":"$1$qMDkOyxM$bg5n39kQHn5cCJyvRxKVa1"
+	},
+	"postgresql": {
+		"password":"postgres"
+	},
+	"run_list": ["recipe[main]","recipe[nginx]","recipe[tmux]","recipe[zsh]","recipe[postgresql::server]"]
+
+}
