@@ -12,3 +12,6 @@ gem install chef ruby-shadow --no-ri --no-rdoc
 apt-get -y install git-core
 cd /var/
 git clone https://github.com/jmaya/chef-bootstrap.git /var/chef
+cd /var/chef
+git submodule init
+git submodule update
