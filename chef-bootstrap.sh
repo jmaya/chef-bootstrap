@@ -9,3 +9,6 @@ cd ruby-1.9.3-p385/
 make
 make install
 gem install chef ruby-shadow --no-ri --no-rdoc
+apt-get -y install git-core
+cd /var/
+git clone https://github.com/jmaya/chef-bootstrap.git /var/chef
