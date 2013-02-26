@@ -6,6 +6,6 @@
 	"postgresql": {
 		"password":"postgres"
 	},
-	"run_list": ["recipe[main]","recipe[nginx]","recipe[tmux]","recipe[zsh]","recipe[postgresql::server]"]
+	"run_list": ["recipe[apt]","recipe[main]","recipe[nginx]","recipe[tmux]","recipe[zsh]","recipe[postgresql::server]"]
 
 }

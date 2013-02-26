@@ -1,5 +1,6 @@
 package "git-core"
 package "vim"
+package "apt"
 
 
 user node[:user][:name] do
